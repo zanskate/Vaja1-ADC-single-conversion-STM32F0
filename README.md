@@ -20,3 +20,8 @@ h) V Configuration kliknemo ADC gumb. V Parameter settings izberite ločljivost 
 a) 12 bitno, od 0 do 4095,
 b) 10 bitno, od 0 do 1023,
 c) 6 bitno, od 0 do 63.
+
+
+
+KOMENTAR NA DELOVANJE:
+S pomočjo potenciometra in ADC pretvornika smo naredili program, ki nam izpisuje vrednost na potenciometru. S pomočjo Debug mode v μVision5 smo lahko na računalniku opazovali to vrednost. Pretvorba je 8 bitna, kar nam omogoča, da izpisuje vrednosti od 0 do 254. Pri nas nam vrne najvišjo vrednost 252 (slabši stik na potenciometru).
